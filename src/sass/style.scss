@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Gotham Pro', sans-serif;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@import 'blocks/frame1';
+@import 'blocks/frame2';
+@import 'blocks/button';
+@import 'blocks/title';

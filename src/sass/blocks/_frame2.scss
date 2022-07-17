@@ -1,0 +1,17 @@
+.frame2 {
+    height: 900px;
+    background: linear-gradient(108deg, #3A4EFF 6.84%, #913AFF 100.11%);
+    padding: 362px 0 95px 0;
+    &__arrow {
+        display: block;
+        margin-top: 116px;
+        margin-left: auto;
+    }
+    &__bg {
+        display: block;
+        margin-top: -362px;
+        margin-left: 520px;
+        width: 414px;
+        height: 348px;
+    }
+}

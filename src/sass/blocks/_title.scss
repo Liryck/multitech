@@ -1,0 +1,15 @@
+.title {
+    margin-left: -10px;
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160px;
+    color: $text-color;
+    span {
+        color: $main-color;
+    }
+    &__white {
+        color: #fff;
+        text-align: center;
+    }
+}
