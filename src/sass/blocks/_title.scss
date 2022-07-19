@@ -12,4 +12,20 @@
         color: #fff;
         text-align: center;
     }
+    &_mini {
+        font-family: 'Neue Machina';
+        font-weight: 700;
+        font-size: 84px;
+        color: $text-color;
+    }
+}
+
+.subtitle {
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    font-size: 36px;
+    &_mt142 {
+        margin-top: 142px;
+        
+    }
 }

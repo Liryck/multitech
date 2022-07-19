@@ -1,0 +1,86 @@
+.frame3 {
+    position: relative;
+    height: 900px;
+    background-color: #fff;
+    padding: 149px 0 137px 0;
+    &__bg {
+        display: block;
+        position: absolute;
+        width: 753px;
+        height: 359px;
+        top: -149px;
+        left: 280px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 74px;
+    }
+    .diagram {
+        padding-bottom: 7px;
+        width: 359px;
+        &__cloud {
+            background-image: url("../../icons/cloud.svg");
+            width: 160px;
+            height: 59px;
+            margin-left: 198px;
+            padding-top: 10px;
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        &__blocks {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 24px;
+            width: 303px;
+            height: 358px;
+        }
+        &__block {
+            width: 51px;
+            height: 156px;
+            background-color: #EBEEF2;
+            border-radius: 5px;
+            &_heigh {
+                height: 218px;
+            }
+            &_heigher {
+                height: 327px;
+            }
+            &_blue {
+                height: 358px;
+                background-color: $main-color;
+            }
+        }
+    }
+    &__target {
+        margin-left: 355px;
+        margin-top: -15px;
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 164px;
+        height: 46px;
+        border-radius: 23px;
+        background-color: #EBEEF2;
+        font-weight: 500;
+        font-size: 20px;
+        color: $text-color;
+        img {
+            width: 33px;
+            height: 33px;
+            margin-right: 12px;
+        }
+    }
+    &__descr {
+        margin-top: 17px;
+        margin-bottom: 32px;
+        font-weight: 500;
+        font-size: 20px;
+        color: $text-color;
+    }
+}
