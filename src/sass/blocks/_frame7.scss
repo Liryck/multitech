@@ -1,0 +1,16 @@
+.frame7 {
+    height: 900px;
+    background-color: #fff;
+    padding: 149px 0 137px 0;
+    &__bg {
+        position: absolute;
+        top: -149px;
+        left: 597px;
+        width: 665px;
+        height: 355px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 90px;
+    }
+}
