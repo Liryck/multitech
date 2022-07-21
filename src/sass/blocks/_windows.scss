@@ -1,0 +1,31 @@
+.windows {
+    display: flex;
+    justify-content: space-between;
+    min-width: 570px;
+    height: 321px;
+    &__window {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 24px;
+        width: 282px;
+        height: 321px;
+        background: #EBEEF2;
+        border-radius: 6px;
+    }
+    &__circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 100%;
+        width: 120px;
+        height: 120px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 22px;
+        font-weight: 500;
+        color: $text-color;
+    }
+}

@@ -9,21 +9,28 @@
         margin-top: 120px;
         margin-left: 110px;
     }
+    &_mt20 {
+        margin-top: 20px;
+        margin-left: 132px;
+    }
     &__label {
         display: flex;
         align-items: center;
         padding-left: 12px;
         padding-right: 12px;
-        min-width: 164px;
+        margin-bottom: 32px;
+        width: 164px;
         height: 46px;
         border-radius: 23px;
         background-color: #EBEEF2;
         font-weight: 500;
         font-size: 20px;
         color: $text-color;
-        &_mb32 {
-            margin-bottom: 32px;
+        &_w207 {
             width: 207px;
+        }
+        &_w191 {
+            width: 191px;
         }
         img {
             width: 33px;
@@ -40,6 +47,10 @@
         }
         &_mt32px {
             margin-top: 32px;
+        }
+        &_lh-ls {
+            letter-spacing: -2px;
+            line-height: 110%;
         }
     }
     &__descr {
