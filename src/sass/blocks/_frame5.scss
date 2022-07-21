@@ -1,0 +1,24 @@
+.frame5 {
+    height: 900px;
+    background-color: #fff;
+    padding: 149px 0 137px 0;
+    &__bg {
+        position: absolute;
+        top: -149px;
+        left: 578px;
+        width: 723px;
+        height: 367px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 54px;
+    }
+    &__letters {
+        position: relative;
+        width: 609px;
+        height: 396px;
+        img {
+            width: 100%;
+        }
+    }
+}
