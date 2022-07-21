@@ -1,7 +1,7 @@
 .frame4 {
     position: relative;
     height: 900px;
-    background-color: #fff;
+    background-color: black;
     padding: 149px 0 194px 0;
     &__bg {
         display: block;
@@ -29,34 +29,5 @@
             height: 242px;
             margin-bottom: 12px;
         }
-    }
-    &__services {
-        margin-top: 50px;
-    }
-    &__info {
-        display: flex;
-        align-items: center;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-bottom: 32px;
-        width: 207px;
-        height: 46px;
-        border-radius: 23px;
-        background-color: #EBEEF2;
-        font-weight: 500;
-        font-size: 20px;
-        color: $text-color;
-        img {
-            width: 33px;
-            height: 33px;
-            margin-right: 12px;
-        }
-    }
-    &__descr {
-        margin-top: 17px;
-        margin-bottom: 32px;
-        font-weight: 500;
-        font-size: 20px;
-        color: $text-color;
     }
 }
