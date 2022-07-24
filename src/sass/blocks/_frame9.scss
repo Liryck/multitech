@@ -1,0 +1,14 @@
+.frame9 {
+    height: 900px;
+    background-color: #fff;
+    padding: 89px 0 107px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__bg {
+        width: 621px;
+        height: 517px;
+        margin-top: -29px;
+    }
+}

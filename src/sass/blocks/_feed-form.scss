@@ -1,0 +1,62 @@
+.feed-form {
+    margin-top: 133px;
+    width: 525px;
+    height: 152px;
+    width: 100%;
+    input {
+        height: 50px;
+        width: 100%;
+        border: none;
+        font-weight: 500;
+        font-size: 26px;
+        color: $text-color;
+    }
+    hr {
+        margin-top: 24px;
+        border: 1px solid #C9C9C9;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 37, 37, 0.8);
+    visibility: hidden;
+    .modal {
+        position: relative;
+        width: 471px;
+        height: 131px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 32px 70px;
+        &__descr {
+            margin-top: 13px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #252525;
+            opacity: 0.5;
+            text-align: center;
+        }
+        &__close {
+            position: absolute;
+            top: 35px;
+            right: 18px;
+            width: 28px;
+            height: 28px;
+            background: rgba(0, 0, 30, 0.5);
+            border-radius: 100%;
+            color: #fff;
+            text-align: center;
+            font-size: 28px;
+            line-height: 28px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,40 +1,6 @@
 .frame1 {
     height: 900px;
     padding-top: 40px;
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        &__logo {
-            font-weight: 500;
-            font-size: 32px;
-            color: $text-color;
-            span {
-                color: $main-color;
-            }
-        }
-        &__wrapper {
-            display: flex;
-            align-items: center;
-            .menu {
-                display: flex;
-                justify-content: space-between;
-                min-width: 450px;
-                margin-right: 32px;
-                padding-left: 0;
-                &__link {
-                    font-weight: 400;
-                    font-size: 15px;
-                    color: $text-color;
-                    text-decoration: none;
-                    cursor: pointer;
-                    &:hover {
-                        color: $text-color;
-                    }
-                }
-            }
-        }
-    }
     .promo {
         display: flex;
         &__bg {

@@ -3,12 +3,14 @@
     background-color: #fff;
     padding: 149px 0 137px 0;
     .gallery {
-        margin-top: 150px;
+        margin-top: 75px;
         transform: rotate(4.56deg);
         &__items {
             display: flex;
             justify-content: center;
-            margin-top: 24px;
+            &:nth-child(2) {
+                margin-top: 24px;
+            }
         }
         &__item {
             display: block;

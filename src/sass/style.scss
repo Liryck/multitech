@@ -12,6 +12,13 @@
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    &_mini {
+        max-width: 525px;
+    }
+    &_flex {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .cloud {
@@ -32,6 +39,7 @@
     }
 }
 
+@import 'blocks/header';
 @import 'blocks/frame1';
 @import 'blocks/frame2';
 @import 'blocks/frame3';
@@ -40,7 +48,10 @@
 @import 'blocks/frame6';
 @import 'blocks/frame7';
 @import 'blocks/frame8';
+@import 'blocks/frame9';
 @import 'blocks/button';
 @import 'blocks/title';
 @import 'blocks/info';
 @import 'blocks/windows';
+@import 'blocks/feed-form';
+@import 'blocks/footer';
