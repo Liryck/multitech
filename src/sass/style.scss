@@ -1,8 +1,10 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
+@import 'libs/animate.scss';
 
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/animation';
 
 * {
     font-family: 'Gotham Pro', sans-serif;
@@ -34,7 +36,7 @@
     &_posfr5 {
         position: absolute;
         margin-left: 0;
-        top: 80px;
+        top: 79px;
         left: 253px;
     }
 }

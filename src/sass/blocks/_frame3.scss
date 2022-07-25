@@ -28,18 +28,24 @@
         }
         &__block {
             width: 51px;
-            height: 156px;
             background-color: #EBEEF2;
             border-radius: 5px;
-            &_heigh {
-                height: 218px;
+            &_mini {
+                height: 156px;
+                animation: grow-up 2s;
             }
-            &_heigher {
+            &_high {
+                height: 218px;
+                animation: grow-up-high 2s;
+            }
+            &_higher {
                 height: 327px;
+                animation: grow-up-higher 2s;
             }
             &_blue {
                 height: 358px;
                 background-color: $main-color;
+                animation: grow-up-blue 2s;
             }
         }
     }
